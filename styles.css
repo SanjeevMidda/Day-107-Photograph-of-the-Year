@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    color:white
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url("one.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+nav{
+    display: flex;
+    flex-basis: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav *{
+    margin: 10px;
+}
+
+.photograph{
+    display: flex;
+    flex-basis: 95%;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
